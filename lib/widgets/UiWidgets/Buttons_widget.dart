@@ -22,7 +22,6 @@ class ButtonsWidget extends StatelessWidget {
                       shape: WidgetStateProperty.all(RoundedRectangleBorder(
                           borderRadius:
                               BorderRadius.all(Radius.elliptical(10, 10)))),
-        
                       backgroundColor: MaterialStateProperty.all(
                           Theme.of(context).primaryColor),
                       overlayColor: MaterialStateProperty.all(Colors.black)),
