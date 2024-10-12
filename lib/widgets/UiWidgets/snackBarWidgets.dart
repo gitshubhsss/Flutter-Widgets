@@ -19,9 +19,10 @@ class Snackbarwidgets extends StatelessWidget {
                       borderRadius:
                           BorderRadius.all(Radius.elliptical(10, 10))))),
               onPressed: () {
-                ScaffoldMessenger.of(context).showSnackBar(
-                    Subsnackbar(content: 'Am getting the snackbar')
-                        .getSnackBar());
+                ScaffoldMessenger.of(context).showSnackBar(Subsnackbar(
+                        content: 'Am getting the snackbar',
+                        backgroundColor: Colors.red)
+                    .getSnackBar());
               },
               child: Text(
                 "Get snackBar",
