@@ -51,41 +51,6 @@ class Showalertbox {
                   ),
                   Text(
                       'as a state eblem it choose a repblica of the lion capital '),
-                  SizedBox(
-                    height: 20,
-                  ),
-                  Text(
-                      'as a state eblem it choose a repblica of the lion capital '),
-                  SizedBox(
-                    height: 20,
-                  ),
-                  Text(
-                      'as a state eblem it choose a repblica of the lion capital '),
-                  SizedBox(
-                    height: 20,
-                  ),
-                  Text(
-                      'as a state eblem it choose a repblica of the lion capital '),
-                  SizedBox(
-                    height: 20,
-                  ),
-                  Text(
-                      'as a state eblem it choose a repblica of the lion capital '),
-                  SizedBox(
-                    height: 20,
-                  ),
-                  Text(
-                      'as a state eblem it choose a repblica of the lion capital '),
-                  SizedBox(
-                    height: 20,
-                  ),
-                  Text(
-                      'as a state eblem it choose a repblica of the lion capital '),
-                  SizedBox(
-                    height: 20,
-                  ),
-                  Text(
-                      'as a state eblem it choose a repblica of the lion capital '),
                 ],
               ),
             ),

@@ -7,6 +7,8 @@ class ListGridWidget extends StatelessWidget {
     'emploeyee': ["shubham", "omkar", "sandesh", "akash", "pavan"]
   };
 
+  ListGridWidget({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -153,17 +155,28 @@ class ListGridWidget extends StatelessWidget {
         //   ],
         // ),
         child: GridView.builder(
-          gridDelegate:
-              SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2,
-              crossAxisSpacing: 10,mainAxisSpacing: 10,),
+          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: 2,
+            crossAxisSpacing: 10,
+            mainAxisSpacing: 10,
+          ),
           itemBuilder: (context, index) {
             return Card(
               color: Colors.black,
               child: Center(
                 child: ListTile(
-                  leading: Icon(Icons.person,color: Colors.orange,),
-                  title: Text(employee['emploeyee'][index],style: TextStyle(color: Theme.of(context).primaryColor),),
-                  subtitle: Text(employee['componey'][index],style: TextStyle(color: Theme.of(context).primaryColor),),
+                  leading: Icon(
+                    Icons.person,
+                    color: Colors.orange,
+                  ),
+                  title: Text(
+                    employee['emploeyee'][index],
+                    style: TextStyle(color: Theme.of(context).primaryColor),
+                  ),
+                  subtitle: Text(
+                    employee['componey'][index],
+                    style: TextStyle(color: Theme.of(context).primaryColor),
+                  ),
                 ),
               ),
             );
